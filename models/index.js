@@ -7,7 +7,7 @@ you can check this by going to your console and using these commands
 - use 'show dbs' to show your databases
 - use 'use <your db name>' to select your databases
 - use 'show collections' to show the models in your database
-- use 'db.ModelName.find()' to query your database for a model
+- use 'db.<modelName>.find()' to query your database for a model e.g, db.pizza.find()
 */
 
 mongoose.connect("mongodb://localhost/pizza_app");
